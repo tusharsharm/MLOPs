@@ -1,0 +1,82 @@
+24040208008
+MDSC MLOPS
+1. Define Git and GitHub: Explain the core difference between Git and GitHub. Which one is the Distributed Version Control System (DVCS), and which one is the platform for collaboration?
+Git provides the technical foundation for versioning code
+Github offers the infrastructure for team interaction
+Git is the Distributed Version Control System (DVCS), and Github is the platform for collaboration.
+2. Purpose of Git: List three primary functions that Git allows developers to perform regarding source code management in a project.
+Version History Tracking :Git records every modification to the codebase as a "snapshot" or commit.
+Isolated Branching and Merging: Developers can create branches to work on new features, bug fixes, or experiments in an isolated environment without affecting the main source code
+Distributed Collaboration:This allows team members to work independently and offline, only needing to connect to a network when they are ready to push their changes to a remote repository or pull updates from their teammates.
+3. Core Git Concepts: Explain the meaning of a Version Control System (VCS) and describe why a system like Git is necessary for a team of developers working simultaneously on the same files.
+VCS : records every modification made to the source code—including additions, deletions, and line-by-line edits—along with information of who made the change, when it occurred.
+Git is necessary for a team of developers working simultaneously on the same files because it prevents the "tangled mess" and data loss that occurs when multiple people work on the same files manually.
+4. GitHub Actions: Briefly explain the role of GitHub Actions and how it automates software workflows in relation to Continuous Integration/Continuous Deployment (CI/CD).
+GitHub Actions is a workflow automation platform integrated directly into GitHub that enables teams to implement Continuous Integration and Continuous Deployment (CI/CD) practices.
+
+It allows developers to define automated workflows using configuration files (YAML) that are triggered by repository events such as code pushes, pull requests, or releases. These workflows can automatically perform tasks such as building code, running tests, performing static analysis, packaging applications, and deploying them to target environments.
+
+In the context of CI/CD, GitHub Actions ensures that every code change is automatically validated through testing and quality checks (Continuous Integration) and, when configured, automatically deployed to production or staging environments (Continuous Deployment). This automation improves code reliability, reduces manual intervention, accelerates delivery cycles, and promotes consistent and repeatable software releases.
+
+5. Commit Identification: How does Git uniquely identify each commit, and what is the resulting format of this identifier?
+Git uniquely identifies each commit using a cryptographic hash generated from the commit’s contents. This hash is computed using the SHA-1 hashing algorithm
+
+The resulting identifier is a 40-character hexadecimal string (for SHA-1), commonly referred to as the commit hash or commit ID.
+
+6. Git Workflow Stages: Describe the typical flow when a developer makes local changes and wants to integrate them into the central repository, mentioning the steps associated with the Working Directory, Staging Area, and Local Repository (as depicted in the Git workflow).
+When a developer makes local changes and intends to integrate them into the central repository, Git follows a structured workflow involving three main stages: the Working Directory, the Staging Area, and the Local Repository.
+
+Working Directory
+The working directory is where the developer modifies files locally. Any changes made to tracked files are initially reflected only in this area. At this stage, Git is aware that files have been modified, but these changes are not yet prepared for inclusion in a commit.
+Staging Area
+Once the developer decides which changes should be included in the next commit, those changes are added to the staging area using commands such as git add. The staging area acts as an intermediate layer that allows the developer to selectively group and review changes before committing them.
+Local Repository
+After the desired changes are staged, the developer creates a commit using git commit. This action records a snapshot of the staged changes in the local repository, along with relevant metadata such as the author, timestamp, and commit message.
+7. Initializing a Repository: What is the command used to initialize an existing directory as a new Git repository?
+The command used to initialize an existing directory as a new Git repository is:
+
+git init
+
+8. Checking Status: If a developer executes git status immediately after adding a new file (hello.py) to a newly initialized repository, what message would indicate that the file is ready to be staged?
+Untracked files:   (use "git add <file>..." to include in what will be committed)         hello.py
+
+9. Cloning vs. Fetching: Distinguish between the commands git clone [url] and git fetch [alias]. What is the intended use case for each?
+git clone [url] This command is used to create a new local copy of an existing remote repository. It downloads the entire repository, including all branches, commit history, and files, and automatically sets up a working directory and a remote reference.
+
+git fetch [alias] This command is used to retrieve updates from a remote repository that already exists locally. It downloads new commits, branches, and tags from the specified remote but does not merge these changes into the current working branch.
+
+10. Staging and Committing: Provide the two sequential commands required to first add a modified file (named test.py) to the staging area and then finalize the change with an informative snapshot message in the local repository.
+To stage a modified file named test.py and then commit the change with an informative message, the following two commands are used in sequence:
+
+Add the file to the staging area:
+git add test.py
+
+Commit the staged changes to the local repository with a message:
+git commit -m "commit message"
+
+11. Pushing Changes: What command syntax is used to transfer local branch commits to the remote repository branch (assuming the remote is aliased as origin and the branch is master)?
+git push origin master This command pushes the commits from the local master branch to the master branch on the remote repository identified by the alias origin.
+
+12. Viewing History: A colleague needs to view a summary of all committed snapshots in the current branch's history. Which Git command should they use?
+git log
+
+13. Reverting Changes (Time Machine Concept): If a developer wants to revert the state of their files back to a specific previous commit (like a "time machine"), they can use the git checkout command followed by the unique commit identifier. What Git command can be used immediately after this action to return to the latest version of the branch?
+git checkout master This command switches the working directory back to the master branch, restoring the files to the most recent committed state of that branch.
+
+14. Configuration: What two essential pieces of information must a user configure globally before making their first commit, and what command structure is used to set the user's name?
+User name – Identifies the author of the commits.
+
+User email address – Associates commits with the user’s email identity.
+
+The command structure used to set the user’s name globally is:
+
+git config --global user.name " Name"
+
+Similarly, the email address is configured using git config --global user.email "email address"
+
+15. Pulling Updates: Explain the specific function of the git pull command within the common Git workflow. Where does it retrieve information from, and what is the final action it performs locally?
+The git pull command is used to synchronize a local branch with its corresponding branch in a remote repository as part of the standard Git workflow.
+
+Specifically, git pull retrieves the latest commits and references from the remote repository for the tracked branch. After fetching this information, it automatically integrates the remote changes into the current local branch.
+
+In effect, git pull performs two actions in sequence: it executes a git fetch to download the updated data from the remote repository, followed by a merge to incorporate those changes into the local working branch. This ensures that the local repository reflects the most recent state of the remote branch.
