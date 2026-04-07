@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/II%20MSc/IV%20SEM/mlops/MLOPs%20LAB/lab/Final%20Project/ml-flask-project/ml-pipeline/mlruns/123196855325761129/2e593ab311e8433d8bee33979071d2ad/artifacts
+end_time: 1775452717390
+entry_point_name: ''
+experiment_id: '123196855325761129'
+lifecycle_stage: active
+run_id: 2e593ab311e8433d8bee33979071d2ad
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775452709249
+status: 3
+tags: []
+user_id: dmacs-214217

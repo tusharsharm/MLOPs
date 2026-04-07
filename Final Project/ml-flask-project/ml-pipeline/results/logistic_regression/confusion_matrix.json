@@ -1,0 +1,21 @@
+{
+  "modelName": "Logistic Regression",
+  "labels": [
+    "Human",
+    "AI"
+  ],
+  "matrix": [
+    [
+      1010,
+      5
+    ],
+    [
+      9,
+      976
+    ]
+  ],
+  "truePositive": 976,
+  "trueNegative": 1010,
+  "falsePositive": 5,
+  "falseNegative": 9
+}

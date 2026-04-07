@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/II%20MSc/IV%20SEM/mlops/MLOPs%20LAB/lab/Final%20Project/ml-flask-project/ml-pipeline/mlruns/123196855325761129/a3560567430b40b4a3ea7bd54f56dc43/artifacts
+end_time: 1775452709229
+entry_point_name: ''
+experiment_id: '123196855325761129'
+lifecycle_stage: active
+run_id: a3560567430b40b4a3ea7bd54f56dc43
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775452701263
+status: 3
+tags: []
+user_id: dmacs-214217

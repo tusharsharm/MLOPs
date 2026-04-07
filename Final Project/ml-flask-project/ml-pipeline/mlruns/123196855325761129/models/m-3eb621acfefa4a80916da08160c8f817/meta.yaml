@@ -1,0 +1,10 @@
+artifact_location: file:///D:/II%20MSc/IV%20SEM/mlops/MLOPs%20LAB/lab/Final%20Project/ml-flask-project/ml-pipeline/mlruns/123196855325761129/models/m-3eb621acfefa4a80916da08160c8f817/artifacts
+creation_timestamp: 1775465121087
+experiment_id: '123196855325761129'
+last_updated_timestamp: 1775465128098
+model_id: m-3eb621acfefa4a80916da08160c8f817
+model_type: null
+name: model
+source_run_id: 27100f13d8c74bf9bf6c1e21e0440b94
+status: 2
+status_message: null

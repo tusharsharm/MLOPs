@@ -1,0 +1,107 @@
+[
+  {
+    "feature": "burstiness",
+    "importance": 4.074070254228137,
+    "rank": 1
+  },
+  {
+    "feature": "perplexity",
+    "importance": 2.373638121051205,
+    "rank": 2
+  },
+  {
+    "feature": "sentence_variance",
+    "importance": 2.043318562888452,
+    "rank": 3
+  },
+  {
+    "feature": "coherence_score",
+    "importance": 1.7652437406866799,
+    "rank": 4
+  },
+  {
+    "feature": "transition_word_density",
+    "importance": 1.4909972246719965,
+    "rank": 5
+  },
+  {
+    "feature": "formality_score",
+    "importance": 1.4341018715558058,
+    "rank": 6
+  },
+  {
+    "feature": "passive_voice_ratio",
+    "importance": 1.2674843159348679,
+    "rank": 7
+  },
+  {
+    "feature": "avg_sentence_length",
+    "importance": 1.0902555743717606,
+    "rank": 8
+  },
+  {
+    "feature": "vocabulary_richness",
+    "importance": 1.0492970383325988,
+    "rank": 9
+  },
+  {
+    "feature": "repetition_score",
+    "importance": 0.9271106166028111,
+    "rank": 10
+  },
+  {
+    "feature": "has_headers",
+    "importance": 0.6324845604435199,
+    "rank": 11
+  },
+  {
+    "feature": "word_count",
+    "importance": 0.6267405626708507,
+    "rank": 12
+  },
+  {
+    "feature": "punctuation_density",
+    "importance": 0.616242844628187,
+    "rank": 13
+  },
+  {
+    "feature": "has_lists",
+    "importance": 0.5551125297915612,
+    "rank": 14
+  },
+  {
+    "feature": "num_paragraphs",
+    "importance": 0.4694404581925753,
+    "rank": 15
+  },
+  {
+    "feature": "avg_word_length",
+    "importance": 0.4511265527094979,
+    "rank": 16
+  },
+  {
+    "feature": "ct_news",
+    "importance": 0.1909235614560981,
+    "rank": 17
+  },
+  {
+    "feature": "ct_social_media",
+    "importance": 0.07544705498605968,
+    "rank": 18
+  },
+  {
+    "feature": "ct_article",
+    "importance": 0.06858340661432598,
+    "rank": 19
+  },
+  {
+    "feature": "ct_blog",
+    "importance": 0.06575348503694717,
+    "rank": 20
+  },
+  {
+    "feature": "ct_academic",
+    "importance": 0.021371249754941406,
+    "rank": 21
+  }
+]

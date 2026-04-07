@@ -1,0 +1,107 @@
+[
+  {
+    "feature": "burstiness",
+    "importance": 0.31574015936494115,
+    "rank": 1
+  },
+  {
+    "feature": "sentence_variance",
+    "importance": 0.146920769289834,
+    "rank": 2
+  },
+  {
+    "feature": "perplexity",
+    "importance": 0.14099941801484595,
+    "rank": 3
+  },
+  {
+    "feature": "coherence_score",
+    "importance": 0.08498869531958038,
+    "rank": 4
+  },
+  {
+    "feature": "transition_word_density",
+    "importance": 0.07662408970269113,
+    "rank": 5
+  },
+  {
+    "feature": "num_paragraphs",
+    "importance": 0.05884780779170334,
+    "rank": 6
+  },
+  {
+    "feature": "formality_score",
+    "importance": 0.05749640955442261,
+    "rank": 7
+  },
+  {
+    "feature": "word_count",
+    "importance": 0.0343272885328315,
+    "rank": 8
+  },
+  {
+    "feature": "passive_voice_ratio",
+    "importance": 0.02309752430818343,
+    "rank": 9
+  },
+  {
+    "feature": "repetition_score",
+    "importance": 0.01671175252559646,
+    "rank": 10
+  },
+  {
+    "feature": "vocabulary_richness",
+    "importance": 0.016459500416673486,
+    "rank": 11
+  },
+  {
+    "feature": "avg_sentence_length",
+    "importance": 0.011487729820711707,
+    "rank": 12
+  },
+  {
+    "feature": "punctuation_density",
+    "importance": 0.00914871284959069,
+    "rank": 13
+  },
+  {
+    "feature": "avg_word_length",
+    "importance": 0.0038345256191520973,
+    "rank": 14
+  },
+  {
+    "feature": "has_headers",
+    "importance": 0.001899251652164246,
+    "rank": 15
+  },
+  {
+    "feature": "has_lists",
+    "importance": 0.0006609748780370945,
+    "rank": 16
+  },
+  {
+    "feature": "ct_academic",
+    "importance": 0.00020415964208427245,
+    "rank": 17
+  },
+  {
+    "feature": "ct_news",
+    "importance": 0.000194994298193963,
+    "rank": 18
+  },
+  {
+    "feature": "ct_blog",
+    "importance": 0.00012540404696965274,
+    "rank": 19
+  },
+  {
+    "feature": "ct_article",
+    "importance": 0.0001220786486034247,
+    "rank": 20
+  },
+  {
+    "feature": "ct_social_media",
+    "importance": 0.00010875372318946274,
+    "rank": 21
+  }
+]

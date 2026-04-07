@@ -1,0 +1,107 @@
+[
+  {
+    "feature": "burstiness",
+    "importance": 0.44768136739730835,
+    "rank": 1
+  },
+  {
+    "feature": "perplexity",
+    "importance": 0.1627950370311737,
+    "rank": 2
+  },
+  {
+    "feature": "num_paragraphs",
+    "importance": 0.10679952055215836,
+    "rank": 3
+  },
+  {
+    "feature": "word_count",
+    "importance": 0.06125350669026375,
+    "rank": 4
+  },
+  {
+    "feature": "sentence_variance",
+    "importance": 0.05338091775774956,
+    "rank": 5
+  },
+  {
+    "feature": "coherence_score",
+    "importance": 0.04450158774852753,
+    "rank": 6
+  },
+  {
+    "feature": "formality_score",
+    "importance": 0.03215062618255615,
+    "rank": 7
+  },
+  {
+    "feature": "transition_word_density",
+    "importance": 0.02393277920782566,
+    "rank": 8
+  },
+  {
+    "feature": "repetition_score",
+    "importance": 0.014524562284350395,
+    "rank": 9
+  },
+  {
+    "feature": "passive_voice_ratio",
+    "importance": 0.011149573139846325,
+    "rank": 10
+  },
+  {
+    "feature": "vocabulary_richness",
+    "importance": 0.010945869609713554,
+    "rank": 11
+  },
+  {
+    "feature": "avg_sentence_length",
+    "importance": 0.008601807057857513,
+    "rank": 12
+  },
+  {
+    "feature": "avg_word_length",
+    "importance": 0.0065969424322247505,
+    "rank": 13
+  },
+  {
+    "feature": "punctuation_density",
+    "importance": 0.006044052541255951,
+    "rank": 14
+  },
+  {
+    "feature": "has_headers",
+    "importance": 0.0034804667811840773,
+    "rank": 15
+  },
+  {
+    "feature": "has_lists",
+    "importance": 0.0033447779715061188,
+    "rank": 16
+  },
+  {
+    "feature": "ct_social_media",
+    "importance": 0.0028166158590465784,
+    "rank": 17
+  },
+  {
+    "feature": "ct_academic",
+    "importance": 0.0,
+    "rank": 18
+  },
+  {
+    "feature": "ct_article",
+    "importance": 0.0,
+    "rank": 19
+  },
+  {
+    "feature": "ct_blog",
+    "importance": 0.0,
+    "rank": 20
+  },
+  {
+    "feature": "ct_news",
+    "importance": 0.0,
+    "rank": 21
+  }
+]

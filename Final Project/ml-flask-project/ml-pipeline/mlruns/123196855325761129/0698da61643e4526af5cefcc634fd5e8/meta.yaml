@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/II%20MSc/IV%20SEM/mlops/MLOPs%20LAB/lab/Final%20Project/ml-flask-project/ml-pipeline/mlruns/123196855325761129/0698da61643e4526af5cefcc634fd5e8/artifacts
+end_time: 1775465106123
+entry_point_name: ''
+experiment_id: '123196855325761129'
+lifecycle_stage: active
+run_id: 0698da61643e4526af5cefcc634fd5e8
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775465098603
+status: 3
+tags: []
+user_id: root

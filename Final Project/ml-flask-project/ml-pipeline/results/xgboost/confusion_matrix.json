@@ -1,0 +1,21 @@
+{
+  "modelName": "XGBoost",
+  "labels": [
+    "Human",
+    "AI"
+  ],
+  "matrix": [
+    [
+      1010,
+      5
+    ],
+    [
+      3,
+      982
+    ]
+  ],
+  "truePositive": 982,
+  "trueNegative": 1010,
+  "falsePositive": 5,
+  "falseNegative": 3
+}
